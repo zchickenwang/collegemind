@@ -1,7 +1,14 @@
 <h1><%= @article.title %></h1>
 <h2><%= @article.author %></h2>
 <h3><%= @article.school %></h3>
+
 <p><%= @article.body %></p>
+
+
+<%= render partial: 'comments/form' %>
+
+<h3>Comments (<%= @article.comments.size %>) </h3>
+<%= render partial: 'articles/comment', collection: @article.comments.reverse %>
 
 <%= link_to "edit", edit_article_path(@article) %>
 <%= link_to "delete", article_path(@article), method: :delete, data: {confirm: "Really delete the article?"}%>
