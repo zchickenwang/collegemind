@@ -13,9 +13,9 @@
 </div>
 
 
-<div id="tagline" style="height:20px;">
+<div id="tagline">
     <% @tags.each do |tag| %>
-        <div id="chaquet" style="height:30px;">
+        <div id="chaquet">
            <%= link_to tag.name, tag_path(tag), class: 'eacht' %>
         </div>
     <% end %>
