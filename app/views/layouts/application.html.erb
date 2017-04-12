@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Cm</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+    <head>
+      <title>Collegemind</title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
 
-<p class ="flash"><%= flash.notice %></p>
-<%= yield %>
+      <link href="https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Karla:400,400i,700,700i|Quicksand:300,400,500,700&amp;subset=greek" rel="stylesheet">
+      <link href="https://www.fontify.me/wf/f6e2e931edd4f5a2fc4d874471baa56a" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    </head>
 
-</body>
+
+    <body>
+      <div id="heading">
+          <a href="/">
+          <img id="branding" src="https://image.ibb.co/mHjrWQ/copy.png" />
+          <h6>
+            <span class="pcol">college</span><span class="acol">mind</span>
+          </h6>
+          <div id="motto">
+              <h4>
+                STORIES      FOR LIFE
+              </h4>
+          </div>
+          </a>
+      </div>
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="border row">
+                <a href="/"><h3><span class="pcol"> c</span><span class="acol">m </span></h3></a>
+                <span class="stretch">
+                    <% if logged_in? %>
+                        <h4 class="spec"><%= "Hello #{current_user.username}!" %><br />
+                        <%= link_to "Log Out", logout_path %></h4>
+                    <% else %>
+                        <h4><%= link_to "Log In", login_path %> </h4>
+                    <% end %>
+                    <h4><%= link_to "Index", articles_path %></h4>
+                    <h4><%= link_to "Tags", tags_path %></h4>
+                    <h4><a href="/pages/about">About</a></h4>
+                    <h4><a href="/pages/contact">Contact</a></h4>
+                    <br />
+                    <h4><%= link_to 'Back', :back %></h4>
+                </span>
+            </div>
+          </div>
+      </nav>
+      
+      
+
+      <div id="conatainer">
+        <div id="content">
+          <%= yield %>
+        </div>
+      </div>
+
+      <div style="height: 133px;"></div>
+    </body>
+
+
 </html>

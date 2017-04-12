@@ -1,12 +1,38 @@
-<h1>All Articles</h1>
 
-<ul id="articles">
-    <% @articles.each do |article| %>
-        <li>
-            <%= link_to article.title, article_path(article), class: 'article_title' %>
-        </li>
 
+<div id="artind">
+
+
+
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>welcome to collegemind,</h1>
+        <h2>a place where student stories come together in unison and contrast.  browse through our collection or choose from the tags below to refine your focus.</h2>
+    </div>
+</div>
+
+
+<div id="tagline">
+    <% @tags.each do |tag| %>
+        <div id="chaquet">
+            <%= link_to tag.name, tag_path(tag), class: 'eacht' %>
+        </div>
     <% end %>
-</ul>
+</div>
 
-<%= link_to "Create a New Article", new_article_path, class: 'new_article' %>
+
+<div id="articles">
+    <% @articles.each do |article| %>
+        <div id="chaque">
+            <%= link_to article.title, article_path(article), class: 'each' %>
+        </div>
+    <% end %>
+</div>
+
+<% if logged_in? %>
+    <%= link_to "Create a New Article", new_article_path, class: 'new_article' %>
+<% end %>
+
+
+</div>

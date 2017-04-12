@@ -1,15 +1,21 @@
 <h3>Post a Comment</h3>
-
+<div id="commentform">
 <%= form_for [ @article, @comment ] do |f| %>
-    <p>
-        <%= f.label :author, "Your Name" %><br/>
+    <p style="font-weight:400;">
+        <%= f.label :author, "Your Name", :class => 'cbutton' %>
+    </p>
         <%= f.text_field :author %>
-    </p>
+        <br />
+        <br />
+        <br />
     <p>
-        <%= f.label :body, "Your Comment" %><br/>
+        <%= f.label :body, "Your Comment", :class => 'cbutton' %><br/>
+    </p>
         <%= f.text_area :body %>
-    </p>
-    <p>
-        <%= f.submit 'Submit' %>
-    </p>
+        <br />
+        <br />
+
+    <%= f.submit 'Post', :class => 'sbutton'%>
+
 <% end %>
+</div>

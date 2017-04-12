@@ -1,7 +1,15 @@
-<h1>Articles Tagged with <%= @tag.name %></h1>
+<div id="smallcontent">
 
-<ul>
+
+<h1>STORIES ON " <%= @tag.name %> "</h1>
+
+<div id="articles">
     <% @tag.articles.each do |article| %>
-        <li><%= link_to article.title, article_path(article) %></li>
+        <div id="chaque">
+            <%= link_to article.title, article_path(article), class: 'each' %>
+        </div>
     <% end %>
-</ul>
+</div>
+
+
+</div>

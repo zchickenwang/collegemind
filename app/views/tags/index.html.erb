@@ -1,9 +1,17 @@
-<h1>All Tags</h1>
+<div id="smallcontent">
 
-<ul id="tags">
+<h1>ALL TAGS</h1>
+
+<div id="tagline">
     <% @tags.each do |tag| %>
-        <li>
-            <%= link_to tag.name, tag_path(tag), class: 'tag_name' %>
-        </li>
+        <div id="chaquet">
+            <%= link_to tag.name, tag_path(tag), class: 'eacht' %>
+            <br />
+            <% if logged_in? %>
+                <%= link_to "delete", tag_path(tag), method: :delete, data: {confirm: "Really delete the tag?"}%>
+            <% end %>
+        </div>
     <% end %>
-</ul>
+</div>
+
+</div>

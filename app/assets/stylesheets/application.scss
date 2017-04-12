@@ -1,0 +1,437 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    background: #fffdf8;
+    width: 100%;
+    padding-top: 50px;
+}
+#about {
+    width: 66%;
+    margin: 131px auto;
+}
+#about h1{
+    width: 100%;
+    font-family: 'font92774';
+    font-size: 26px;
+    color: #444444;
+    text-transform: lowercase;
+    line-height: 144%;
+}
+#about h3{
+    width: 66%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #666666;
+    line-height: 133%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#smallcontent{
+    width: 80%;
+    margin: 131px auto 0px;
+}
+#artcontent{
+    width: 60%;
+    margin: 105px auto 0px;
+}
+#artcontent h1{
+    display: inline-block;
+    text-align: left;
+    font-size: 55px;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 700;
+    background-color: #efefef;
+    max-width: 60%;
+    transition: all 0.3s ease;
+}
+#artcontent h1:hover {
+    background-color: #222222;
+    color: #fefefe;
+    transition: all 0.3s ease;
+}
+#smallcontent h1{
+    margin: 0px auto 150px;
+    width: 100%;
+    font-family: 'font92774';
+    font-size: 26px;
+    color: #444444;
+    text-transform: lowercase;
+    line-height: 144%;
+}
+#artcontent h2{
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'font92774';
+    font-size: 17px;
+    color: #444444;
+    text-transform: uppercase;
+    line-height: 144%;
+    margin: 21px 0 0 100px;
+}
+#artcontent h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    margin: 0 0 -15px 0px;
+}
+#artcontent h4:hover{
+    font-weight: 400;
+}
+#artcontent p{
+    font-family: 'Garamond', serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 75%;
+    letter-spacing: 0.0px;
+    line-height: 177%;
+    margin: 33px 0px;
+    color: #000000;
+}
+#artcontent h3{
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'font92774';
+    font-size: 21px;
+    color: #333333;
+    text-transform: lowercase;
+    margin-left: -20px;
+    width: 50%;
+}
+#eachcomment, #commentform {
+    margin-left: 211px;
+    margin-top: -28px;
+    margin-bottom: 66px;
+}
+#eachcomment h4{
+    font-size: 13px;
+    background-color: #4e82b7;
+    color: #ffffff;
+    display: inline-block;
+    padding: 1px 3px;
+    opacity: 0.77;
+    text-align: left;
+}
+#eachcomment p.comment{
+    margin-top: 3px;
+    font-size: 14px;
+}
+#commenttime{
+    opacity: 0.33;
+}
+#spacer{
+    padding-top: 99px;
+}
+#commentform p{
+    vertical-align: top;
+    margin: 0 0 9px 0;
+
+}
+.cbutton, .sbutton{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    background-color: #f5c648;
+    width: 151px;
+    font-size: 13px;
+    border: none;
+    color: #ffffff;
+    padding: 1px 3px;
+    opacity: 0.77;
+    text-align: left;
+}
+.sbutton:hover{
+    opacity: 0.99;
+    transition: all 0.3s ease;
+}
+.sbutton{
+    transition: all 0.3s ease;
+    background-color: #ef7760;
+    opacity: 0.77;
+}
+
+a {
+    color: #666666;
+}
+a:hover {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 700;
+}
+
+#articles {
+    width: 63%;
+    margin: 0 auto;
+    text-align: center;
+}
+.each{
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 0.1px;
+    color: #010101;
+    background-color: #eeeeee;
+    padding: 0 13px 3px;
+    margin-bottom: 21px;
+    transition: all 0.3s ease;
+}
+.each:hover {
+    background-color: #111111;
+    color: #fefefe;
+    transition: all 0.3s ease;
+}
+.eacht, .eachts {
+    display: inline-block;
+    font-family: 'font92774';
+    font-size: 17px;
+    color: #fefefe;
+    background-color: #ef7760;
+    opacity: .77;
+    border-color: #ef7760;
+    border: 5px 5px solid;
+    border-radius: 300px;
+    padding: 0 11px;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+}
+.eacht:hover, .eachts:hover {
+    opacity: 0.99;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.eachts {
+    font-size: 13px;
+}
+
+.jumbotron {
+    background: none;
+    background-repeat: no-repeat;
+    background-position: 600px -90px;
+    background-size: 60% auto;
+    margin-top: -122px;
+    margin-bottom: 55px;
+    opacity: .88;
+    height: 233px;
+}
+
+.jumbotron h1{
+    vertical-align: top;
+    font-family: 'font92774';
+    font-size: 44px;
+    margin-left: -450px;
+    margin-top: 0px;
+    color: #333333;
+}
+
+.jumbotron h2{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    text-transform: lowercase;
+    font-weight: 700;
+    color: #4e82b7;
+    width: 50%;
+    margin-left: 150px;
+    letter-spacing: .3px;
+    opacity: 0.77;
+    background: #555555;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#chaque {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 13px;
+}
+#chaquet {
+    display: inline-block;
+    margin: 0 33px;
+}
+#chaquets {
+    display: inline-block;
+    margin: 0 5px;
+}
+#tagline {
+    text-align: center;
+    margin: 50px auto;
+    width: 66%;
+}
+#taglines {
+    text-align: left;
+    width: 30%;
+    margin: -5px auto 144px -20px;
+}
+.container {
+    width: 100%;
+    background: transparent;
+}
+.navbar {
+    background: transparent;
+    border: none;
+    width: 20%;
+    left: 0;
+    margin-top: 211px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    width: 20%;
+    text-align: left;
+    font-family: 'font92774';
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -.2px;
+    vertical-align: top;
+    padding-left: 18px;
+    opacity: 0.77;
+    transition: all 0.3s ease;
+}
+h3:hover .pcol, h3:hover .acol{
+    transition: all 0.3s ease;
+    color: #000000;
+}
+
+h4, .stretch a{
+    margin-top: -1px;
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 111%;
+    margin: 0;
+    letter-spacing: 0px;
+    color: #666666;
+    transition: all 0.3s ease;
+}
+h4.spec:hover{
+    font-weight: 700;
+    color: #bbbbbb;
+    transition: all 0.3 ease;
+}
+h4.spec{
+    color: #cccccc;
+}
+h4:hover, .stretch a:hover{
+    color: #333333;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+h4, .stretch a{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: #aaaaaa;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    margin-top: 0px;
+}
+
+#heading {
+    width: 100%;
+    text-align: center;
+}
+#branding {
+    width: 36px;
+    height: auto;
+    margin: -49px auto 0px;
+    opacity: 0.91;
+    transition: all 0.3s ease;
+}
+#branding:hover {
+    opacity: 1.0;
+    transition: all 0.3s ease;
+}
+
+#motto h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 10px;
+    letter-spacing: 0.6px;
+    margin-top: -7px;
+}
+#motto, .stretch, #artcontent h1{
+    transform: scale(1.03,1); 
+    -webkit-transform: scale(1.03,1); 
+}
+
+#artind{
+    margin-top: 200px;
+}
+h6 {
+    font-family: 'font92774';
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -.2px;
+    vertical-align: top;
+    color: #ffffff;
+    text-shadow: 0 0 -5px #222222;
+    margin-top: -13px;
+    opacity: 0.88;
+    transition: all 0.3s ease;
+}
+h6:hover {
+    opacity: 0.99;
+    transition: all 0.3s ease;
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%   {color:#000000;}
+    50%  {color:#999999;}
+    100%   {color:#222222;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    0%   {color:#000000;}
+    50%  {color:#999999;}
+    100%   {color:#222222;}
+}
+
+.stretch {
+    display: inline-block;
+    text-align: left;
+    margin: -7px auto 0px;
+    padding-left: 20px;
+    transform: scale(1.03,1); 
+    -webkit-transform: scale(1.03,1); 
+    transition: all 0.3s ease;
+    width: 30%;
+}
+
+
+.pcol {
+    color: #4e82b7;
+    transition: all 0.3s ease;
+}
+
+.acol {
+    color: #f5c648;
+    transition: all 0.3s ease;
+}
+
