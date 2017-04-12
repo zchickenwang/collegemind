@@ -184,7 +184,7 @@ a:hover {
     text-align: center;
 }
 .each{
-    display: inline-block;
+    display: inline;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 29px;
@@ -194,7 +194,6 @@ a:hover {
     padding: 0 13px 3px;
     margin-bottom: 21px;
     transition: all 0.3s ease;
-    height: 30px;
 }
 .each:hover {
     background-color: #111111;
@@ -202,7 +201,7 @@ a:hover {
     transition: all 0.3s ease;
 }
 .eacht, .eachts {
-    display: inline-block;
+    display: inline;
     font-family: 'font92774';
     font-size: 17px;
     color: #fefefe;
@@ -213,7 +212,6 @@ a:hover {
     border-radius: 300px;
     padding: 0 11px;
     margin: 10px auto;
-    height: 20px;
     transition: all 0.3s ease;
 }
 .eacht:hover, .eachts:hover {
@@ -260,20 +258,17 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 #chaque {
-    display: inline-block;
+    display: inline;
     text-align: center;
     margin: 0px 13px;
-    height: 30px;
 }
 #chaquet {
-    display: inline-block;
+    display: inline;
     margin: 0 33px;
-    height: 20px;
 }
 #chaquets {
-    display: inline-block;
+    display: inline;
     margin: 0 5px;
-    height: 10px;
 }
 #tagline {
     text-align: center;
