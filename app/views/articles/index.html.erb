@@ -13,25 +13,25 @@
 </div>
 
 
-<div id="tagline"> &nbsp;
+<div id="tagline" style="height:20px;">
     <% @tags.each do |tag| %>
-        <div id="chaquet">
-           &nbsp; <%= link_to tag.name, tag_path(tag), class: 'eacht' %>
+        <div id="chaquet" style="height:30px;">
+           <%= link_to tag.name, tag_path(tag), class: 'eacht' %>
         </div>
     <% end %>
 </div>
 
 
-<div id="articles"> &nbsp;
+<div id="articles"> 
     <% @articles.each do |article| %>
         <div id="chaque"> 
-           &nbsp; <%= link_to article.title, article_path(article), class: 'each' %>
+          <%= link_to article.title, article_path(article), class: 'each' %>
         </div>
     <% end %>
 </div>
 
 <% if logged_in? %>
-    &nbsp; <%= link_to "Create a New Article", new_article_path, class: 'new_article' %>
+    <%= link_to "Create a New Article", new_article_path, class: 'new_article' %>
 <% end %>
 
 
