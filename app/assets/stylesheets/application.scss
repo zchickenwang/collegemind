@@ -191,13 +191,13 @@ a:hover {
     display: block;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 24px;
     letter-spacing: 0.1px;
     color: #010101;
     background-color: #eeeeee;
     padding: 3px 13px 7px;
-    margin-bottom: 21px;
-    margin-top: 21px;
+    margin-bottom: 13px;
+    margin-top: 13px;
     transition: all 0.3s ease;
 }
 .each:hover {
@@ -208,7 +208,7 @@ a:hover {
 .eacht, .eachts {
     display: inline-block;
     font-family: 'font92774';
-    font-size: 17px;
+    font-size: 14px;
     color: #fefefe;
     background-color: #ef7760;
     opacity: .66;
@@ -242,7 +242,7 @@ a:hover {
 .jumbotron h1{
     vertical-align: top;
     font-family: 'font92774';
-    font-size: 44px;
+    font-size: 33px;
     margin-left: -450px;
     margin-top: 0px;
     color: #333333;
@@ -250,13 +250,14 @@ a:hover {
 
 .jumbotron h2{
     font-family: 'Karla', sans-serif;
-    font-size: 30px;
+    font-size: 21px;
     text-transform: lowercase;
     font-weight: 700;
     color: #4e82b7;
     width: 50%;
+    margin-top: 3px;
     margin-left: 150px;
-    letter-spacing: .3px;
+    letter-spacing: -.3px;
     opacity: 0.77;
     background: #555555;
     -webkit-background-clip: text;
@@ -269,7 +270,7 @@ a:hover {
 }
 #chaquet {
     display: inline-block;
-    margin: -5px 11px;
+    margin: -8px 11px;
 }
 #chaquett {
     display: inline-block;
@@ -281,7 +282,7 @@ a:hover {
 }
 #tagline {
     text-align: center;
-    margin: 99px auto 66px;
+    margin: 55px auto 44px;
     width: 44%;
 }
 #taglines {
@@ -298,7 +299,7 @@ a:hover {
     border: none;
     width: 20%;
     left: 0;
-    margin-top: 211px;
+    margin-top: 198px;
 }
 
 h1 {
@@ -364,9 +365,9 @@ h4, .stretch a{
     text-align: center;
 }
 #branding {
-    width: 36px;
+    width: 29px;
     height: auto;
-    margin: -49px auto 0px;
+    margin: -55px auto -6px;
     opacity: 0.91;
     transition: all 0.3s ease;
 }
@@ -380,9 +381,9 @@ h4, .stretch a{
     font-weight: 700;
     text-align: center;
     color: #dcdcdc;
-    font-size: 10px;
+    font-size: 8px;
     letter-spacing: 0.6px;
-    margin-top: -7px;
+    margin-top: -9px;
 }
 #motto, .stretch, #artcontent h1{
     transform: scale(1.03,1); 
@@ -395,12 +396,12 @@ h4, .stretch a{
 h6 {
     font-family: 'font92774';
     font-weight: 700;
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: -.2px;
     vertical-align: top;
     color: #ffffff;
     text-shadow: 0 0 -5px #222222;
-    margin-top: -13px;
+    margin-top: -21px;
     opacity: 0.88;
     transition: all 0.3s ease;
 }
