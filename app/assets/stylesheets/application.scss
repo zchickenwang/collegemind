@@ -191,8 +191,9 @@ a:hover {
     letter-spacing: 0.1px;
     color: #010101;
     background-color: #eeeeee;
-    padding: 0 13px 3px;
+    padding: 3px 13px 7px;
     margin-bottom: 21px;
+    margin-top: 21px;
     transition: all 0.3s ease;
 }
 .each:hover {
@@ -210,8 +211,8 @@ a:hover {
     border-color: #ef7760;
     border: 5px 5px solid;
     border-radius: 300px;
-    padding: 0 11px;
-    margin: 10px auto;
+    padding: 0 11px 2px;
+    margin: 4px auto;
     transition: all 0.3s ease;
 }
 .eacht:hover, .eachts:hover {
@@ -264,7 +265,11 @@ a:hover {
 }
 #chaquet {
     display: inline-block;
-    margin: 0 33px;
+    margin: -5px 11px;
+}
+#chaquett {
+    display: inline-block;
+    margin: 10px 11px;
 }
 #chaquets {
     display: inline-block;
@@ -272,8 +277,8 @@ a:hover {
 }
 #tagline {
     text-align: center;
-    margin: 50px auto;
-    width: 66%;
+    margin: 99px auto 66px;
+    width: 44%;
 }
 #taglines {
     text-align: left;
