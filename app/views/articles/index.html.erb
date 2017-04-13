@@ -16,7 +16,7 @@
 <div id="tagline">
     <% @tags.each do |tag| %>
         <div id="chaquet">
-           <%= link_to tag.name, tag_path(tag), class: 'eacht' %>
+           <h5><%= link_to tag.name, tag_path(tag), class: 'eacht' %></h5>
         </div>
     <% end %>
 </div>
@@ -25,7 +25,7 @@
 <div id="articles"> 
     <% @articles.each do |article| %>
         <div id="chaque"> 
-          <%= link_to article.title, article_path(article), class: 'each' %>
+          <h5><%= link_to article.title, article_path(article), class: 'each' %></h5>
         </div>
     <% end %>
 </div>
