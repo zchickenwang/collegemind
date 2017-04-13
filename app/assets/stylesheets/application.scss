@@ -184,7 +184,7 @@ a:hover {
     text-align: center;
 }
 .each{
-    display: inline;
+    display: block;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 29px;
@@ -201,7 +201,7 @@ a:hover {
     transition: all 0.3s ease;
 }
 .eacht, .eachts {
-    display: inline;
+    display: block;
     font-family: 'font92774';
     font-size: 17px;
     color: #fefefe;
@@ -258,16 +258,16 @@ a:hover {
     -webkit-text-fill-color: transparent;
 }
 #chaque {
-    display: inline;
+    display: block;
     text-align: center;
     margin: 0px 13px;
 }
 #chaquet {
-    display: inline;
+    display: block;
     margin: 0 33px;
 }
 #chaquets {
-    display: inline;
+    display: block;
     margin: 0 5px;
 }
 #tagline {
