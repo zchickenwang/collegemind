@@ -201,7 +201,7 @@ a:hover {
     transition: all 0.3s ease;
 }
 .eacht, .eachts {
-    display: block;
+    display: inline-block;
     font-family: 'font92774';
     font-size: 17px;
     color: #fefefe;
@@ -263,11 +263,11 @@ a:hover {
     margin: 0px 13px;
 }
 #chaquet {
-    display: block;
+    display: inline-block;
     margin: 0 33px;
 }
 #chaquets {
-    display: block;
+    display: inline-block;
     margin: 0 5px;
 }
 #tagline {
