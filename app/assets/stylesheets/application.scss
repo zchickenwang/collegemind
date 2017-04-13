@@ -32,7 +32,7 @@ body {
     text-transform: lowercase;
     line-height: 144%;
 }
-#about h3{
+#about h3, #about h4{
     width: 66%;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
@@ -43,9 +43,12 @@ body {
     margin: 100px auto;
     text-align: center;
 }
+#about h4{
+    font-size: 11px;
+}
 
 #smallcontent{
-    width: 80%;
+    width: 100%;
     margin: 131px auto 0px;
 }
 #artcontent{
@@ -62,6 +65,7 @@ body {
     background-color: #efefef;
     max-width: 60%;
     transition: all 0.3s ease;
+    margin-bottom: 21px;
 }
 #artcontent h1:hover {
     background-color: #222222;
@@ -207,7 +211,7 @@ a:hover {
     font-size: 17px;
     color: #fefefe;
     background-color: #ef7760;
-    opacity: .77;
+    opacity: .66;
     border-color: #ef7760;
     border: 5px 5px solid;
     border-radius: 300px;
@@ -216,7 +220,7 @@ a:hover {
     transition: all 0.3s ease;
 }
 .eacht:hover, .eachts:hover {
-    opacity: 0.99;
+    opacity: 0.88;
     color: #ffffff;
     transition: all 0.3s ease;
 }
